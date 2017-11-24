@@ -3,6 +3,7 @@
 Built with create-react-app with custom-react-scripts
 
 `npm install -g create-react-app custom-react-scripts`
+
 `create-react-app fawazahmed —scripts-version custom-react-scripts`
 
 Setup for github pages :
