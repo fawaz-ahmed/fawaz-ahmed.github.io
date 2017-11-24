@@ -27,3 +27,5 @@ Setup for github pages :
 `  "deploy": "gh-pages -d build -b master",`
 
 `  ...}`
+
+For source code switch to devel branch.
