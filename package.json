@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://fawaz-ahmed.github.io",
   "dependencies": {
+    "core-js": "^2.5.2",
     "custom-react-scripts": "0.2.1",
     "gh-pages": "^1.1.0",
+    "raf": "^3.4.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   },
