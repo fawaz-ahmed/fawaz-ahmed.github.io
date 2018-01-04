@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import pic from './Images/profile_pic.jpg';
 import './App.less';
 import TopBar from './TopBar';
+import ShortSummary from './ShortSummary';
 
 import { Container, Row, Col } from 'reactstrap';
 
@@ -13,15 +13,10 @@ class App extends Component {
         <TopBar />
         <Container>
           <Row>
-            <Col sm="3" xs="12" className="top-padding">
-              <img className="img-fluid" src={pic} alt="profile pic"/>
-              <div className="short-summary">
-                {'Fawaz Ahmed'}<br/>
-                {'ReactJS developer @ Arpatech, Karachi'}<br/>
-                {'Cell # +92-336-2010293'}<br/>
-              </div>
+            <Col xs={12} sm={5} md={4} className="top-padding">
+              <ShortSummary />
             </Col>
-            <Col sm="auto" xs="12" className="top-padding">
+            <Col xs={12} sm={'auto'} md={'auto'} className="top-padding">
               Profile Summary
             </Col>
           </Row>
